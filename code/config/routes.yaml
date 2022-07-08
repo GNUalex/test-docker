@@ -1,0 +1,9 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+index:
+    path: /
+    controller: App\Controller\ExamenController::saludos
+app_exam:
+    path: /examen
+    controller: App\Controller\ExamenController::saludos
